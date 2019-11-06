@@ -10,6 +10,7 @@ Existing methods typically evaluate de-raining performance on a few synthesized 
 the de-raining capability in reality.
 
 This research aims to develop a reliable blind quality assessment model for the de-rained image, which facilitates the quantitative evaluation on the authentic rain images. 
+
 ===========================================================================
 
 -------------------------COPYRIGHT NOTICE----------------------------------
