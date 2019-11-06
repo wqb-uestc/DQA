@@ -28,6 +28,7 @@ Rights to all images are retained by the photographers. For researchers and educ
 6. If Researcher is employed by a for-profit, commercial entity, Researcher's employer shall also be bound by these terms and conditions, and Researcher hereby represents that he or she is fully authorized to enter into this agreement on behalf of such employer.
 
 ---------------------------Instructions------------------------------------
+
 This is a PyTorch implementation of the proposed B-FEN model. If this code is helpful for your research, please cite the following papers in your bibliography, i.e.,
 
 1. Q. Wu, L. Wang, K. N. Ngan, H. Li and F. Meng, "Beyond Synthetic Data: A Blind Deraining Quality Assessment Metric Towards Authentic Rain Image," IEEE International Conference on Image Processing, 2019, pp. 2364-2368.
