@@ -14,6 +14,7 @@ This research aims to develop a reliable blind quality assessment model for the 
 ===========================================================================
 
 -------------------------COPYRIGHT NOTICE----------------------------------
+
 Copyright (c) 2019 University of Electronic Science and Technology of China
 All rights reserved.
 
