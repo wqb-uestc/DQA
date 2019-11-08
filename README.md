@@ -70,23 +70,23 @@ Please install requirements
 
 - If you are interested in evaluating the performance of your de-raining algorithm:
 
-(1) Please download our pre-trained DQA model (https://drive.google.com/open?id=190vuiTEsF5KmwKV8iXmGLFE_3Jjdgp_O) and put it into the root directory of `\DQA-master'.
+(1) Please download our pre-trained DQA model (https://drive.google.com/open?id=190vuiTEsF5KmwKV8iXmGLFE_3Jjdgp_O) and put it into the root directory of '\DQA-master'.
 
-(2) put all your de-rained images into the 'derain-data' folder and directly run the script of `demo.py'. The qualities of all de-rained images would be saved  in `evaluation-result.txt' and the mean quality of all images would be shown in your runner window. 
+(2) put all your de-rained images into the 'derain-data' folder and directly run the script of 'demo.py'. The qualities of all de-rained images would be saved  in 'evaluation-result.txt' and the mean quality of all images would be shown in your runner window. 
 
 - If you are interested in developing the DQA model:
 
-(1) Please download the IVIPC-DQA database (https://drive.google.com/open?id=1Pe17CX0WN3kK3GH18femUyrW2sBYDMVl) and put it into the directory of `\DQA-master\dataset` .
+(1) Please download the IVIPC-DQA database (https://drive.google.com/open?id=1Pe17CX0WN3kK3GH18femUyrW2sBYDMVl) and put it into the directory of '\DQA-master\dataset` .
 
-(2) Run `creattestid.py' to randomly separate the IVIPC-DQA database into the 
+(2) Run 'creattestid.py' to randomly separate the IVIPC-DQA database into the 
 non-overlapped training and testing sets. The ID of all test images would be 
-saved in the file of `test_id.txt'.
+saved in the file of 'test_id.txt'.
 
-It is noted that the default values of `test_id.txt' are used for replicating the results reported in our paper. The users could run `creattestid.py' to override `test_id.txt' and generate your custom training and testing sets.
+It is noted that the default values of 'test_id.txt' are used for replicating the results reported in our paper. The users could run 'creattestid.py' to override 'test_id.txt' and generate your custom training and testing sets.
 
-(3) Run `dqa.py' to conduct 10 times of training and testing trials on `test_id.txt'. 
+(3) Run 'dqa.py' to conduct 10 times of training and testing trials on 'test_id.txt'. 
 
 ### Opinion-unaware Metrics 
 
 Run ou-metric.m in matlab to get a result of NIQE,QAC,LPSI,ILNIQE algorithm in 
-`OU metric` folder .
+'OU metric` folder .
