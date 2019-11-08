@@ -76,7 +76,7 @@ Please install requirements
 
 - If you are interested in developing the DQA model:
 
-(1) Please download the IVIPC-DQA database (https://drive.google.com/open?id=1Pe17CX0WN3kK3GH18femUyrW2sBYDMVl) and put it into the directory of `\DQA-mat\dataset` .
+(1) Please download the IVIPC-DQA database (https://drive.google.com/open?id=1Pe17CX0WN3kK3GH18femUyrW2sBYDMVl) and put it into the directory of `\DQA-master\dataset` .
 
 (2) Run `creattestid.py' to randomly separate the IVIPC-DQA database into the 
 non-overlapped training and testing sets. The ID of all test images would be 
