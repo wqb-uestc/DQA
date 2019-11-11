@@ -72,7 +72,7 @@ Please install requirements
 
 (1) Please download our pre-trained DQA model (https://drive.google.com/open?id=190vuiTEsF5KmwKV8iXmGLFE_3Jjdgp_O) and put it into the root directory of '\DQA-master'.
 
-(2) put all your de-rained images into the 'derain-data' folder and directly run the script of 'demo.py'. The qualities of all de-rained images would be saved  in 'evaluation-result.txt' and the mean quality of all images would be shown in your runner window. 
+(2) put all your de-rained images into the 'derain-data' folder and directly run the script of 'demo.py'. The qualities of all de-rained images would be saved  in 'evaluation-result.txt' and the mean quality of all images would be shown in your runner window. The reported scores range from 0 to 1, and a higher score means better quality.
 
 - If you are interested in developing the DQA model:
 
