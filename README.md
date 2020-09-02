@@ -82,7 +82,7 @@ Please install requirements
 non-overlapped training and testing sets. The ID of all test images would be 
 saved in the file of 'test_id.txt'.
 
-It is noted that the default values of 'test_id.txt' are used for replicating the results reported in our paper. The users could run 'creattestid.py' to override 'test_id.txt' and generate your custom training and testing sets.
+It is noted that the default values of 'test_id.txt' are used for replicating the results reported in our paper. The users could run 'creattestid.py' to override 'test_id.txt' and generate your custom training and testing sets. The default batch size is 2 for reducing the memory overhead. Please find DQA/MODEL/BFEN/option.py and change the BATCH_SIZE to 16 to replicate the results reported in our paper.
 
 (3) Run 'dqa.py' to conduct 10 times of training and testing trials on 'test_id.txt'. 
 
